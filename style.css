@@ -19,6 +19,7 @@ body {
 
 .navbar {
     display: flex;
+    margin-top: 40px;
 
  
 }
@@ -76,7 +77,7 @@ body {
 .upper-section {
 
     display: flex;
-    margin-top: 100px;
+    margin-top: 13.5em;
 
 }
 
@@ -123,8 +124,88 @@ body {
 
 /* mid-section*/ 
 .mid-section {
+    display: flex;
+    flex-direction: row;
 
 }
 
 
+.service-formula {
+    display: flex;
+    width: 80%;
+    gap: 80px;
+    margin-top: 9em;
+    margin-left: 5em;
 
+}
+
+.service-formula-subtitle {
+    font-size: 1.5em;
+}
+
+/* confident meter*/
+
+
+.confidence-meter {
+    margin-top: 5em;
+    margin-left: 8em;
+    width: 100%;
+}
+
+.confidence-meter-title {
+    margin-left: 11em;
+}
+
+.confidence-meter-container {
+    border: 1px solid black;
+    height: 220px;
+    width: 80%;
+    border-radius: 20px;
+
+}
+
+.confi-one-line {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.confi-one-line img {
+    width: 7%;
+    margin-left: 20px;
+}
+
+.lower-div {
+
+    margin-left: 4rem;
+    width: 60%;
+    height: 1em;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+}
+
+#upper-div-1 {
+
+    height: 0.99em;
+    width: 80%;
+    border-radius: 20px;
+    background-color: #6c99e4;
+}
+
+#upper-div-2 {
+
+    height: 0.99em;
+    width: 60%;
+    border-radius: 20px;
+    background-color: #5b83c6;
+}
+
+#upper-div-3 {
+
+    height: 0.99em;
+    width: 40%;
+    border-radius: 20px;
+    background-color: #2c4d84;
+}
