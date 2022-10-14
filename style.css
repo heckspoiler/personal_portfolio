@@ -1,0 +1,81 @@
+
+/* general styling */
+
+@font-face {
+    font-family: "Neue Machina";
+    src: url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.eot");
+    src: url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.woff") format("woff"), url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.svg#Neue Machina") format("svg");
+}
+
+body {
+    background-color: #e7e8ed;
+    width: 100%;
+    font-family: 'Neue Machina';
+}
+
+
+
+/* nav-bar*/
+
+.navbar {
+    display: flex;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* upper section */
+
+.upper-section {
+
+    display: flex;
+
+}
+
+#background-small {
+    height: 40%;
+    width: 40%;
+    position: absolute;
+    z-index: -1;
+    margin-top: 4rem;
+    margin-left: 3em;
+}
+
+#stache-boi {
+    height: 40%;
+    width: 16%;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 55px;
+}
+
+.title-text {
+    background-color: #e7e8ed;
+    font-size: 40px;
+    width: 40%;
+    padding: 30px;
+    padding-left: 40px;
+    margin-left: 6em;
+    margin-top: 2.6em;
+    font-weight: 100;
+    letter-spacing: 2px;
+
+}
+
+.mid-section {
+    visibility: hidden;
+}
+
+.border-text {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#text-yellow {
+    color: rgb(241, 212, 26);
+}
+
