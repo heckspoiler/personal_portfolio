@@ -31,4 +31,9 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// FUNCTION FOR PROJECTS, COME IN LEFT AND RIGHT
+const imageConfi = document.getElementById('#confi-html');
+const hoverText = document.getElementById('#hurensohn');
+
+imageConfi.addEventListener('mouseover', (event) => {
+  hoverText.style.display = "block";
+})
